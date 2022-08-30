@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu{
+  width: 50px;
+  padding-top: 100px;
+}
+
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 100px;
+  background-color: white;
+  width: 150px;
+  z-index: 200;
+}
+.sideimg{
+  width: 60px;
+  padding-left: 50px;
+  padding-top: 283px;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 100px;
+}
+.col-2{
+  flex-basis: 45%;
+  min-width: 300px;
+}
+.heading{
+  font-size: 22px;
+  display: block;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin: 0 0 0.5em;
+    line-height: 1.4;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: left;
+  margin-left: 87px;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 40px;
+}
+li{
+  color: rgb(60, 60, 60);
+}
+.smallcontainer{
+  display: flex;
+}
+.col3{
+  flex-basis: 50%;
+  margin-bottom: 30px;
+  padding-left: 0px;
+}
+.col3 img{
+  width: 86%;
+  margin-left: 55px;
+}
+.col3 .prddis{
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 11px;
+  font-weight: 500;
+  color: rgb(48, 48, 48);
+}
+
+.Input{
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.15);
+  width: 100px;
+
+}
+.row1{
+  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 400px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+  
+}
+.grid{
+  margin-left: 400px;
+  margin-top: 200px;
+  margin-bottom: 120px;
+  display: grid;
+ }
+.insicon{
+  width: 30px;
+  padding-left: 300px;
+}
+.pinicon{
+  width: 30px;
+  padding-left: 20px;
+}
+.btn{
+  background-color: rgb(33, 32, 32);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.btn:hover{
+  background-color: black;
+}
+.input{
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  height: 36px;
+  padding-left: 5px;
+  font-size: 16px;
+}
